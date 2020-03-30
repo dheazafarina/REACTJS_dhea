@@ -76,7 +76,7 @@ class Login extends React.Component {
             <div style={{marginTop: '10px', marginBottom: '10px'}}>Password</div>
             <input type='password' className="input-login" name="password" id="password" value={password} onChange={this.handleChange}/>
 
-            <button className="btn-login" onClick={this.getAccess}>LOGIN</button>
+            <button className="btn-login" onClick={this.getAccess}><Link to="/menu">LOGIN</Link></button>
             <div className="center f15">
               <p>Not registered yet? Sign up here</p>
               <p>Forgot password?</p>
