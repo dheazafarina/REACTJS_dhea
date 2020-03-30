@@ -1,4 +1,4 @@
-This project runs in [http://localhost:3000home](http://localhost:3000home)
+This project runs in [http://localhost:3000/home](http://localhost:3000/home)
 
 How to run ?
 
